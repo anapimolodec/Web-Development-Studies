@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+Good to see you join!
+<br>
+<h3>
+	Please fill out your information:
+</h3>
+<form>
+	First Name:	<input type="text" name = "fname" required><br>
+	Last Name:	<input type="text" name = "lname"><br>
+	Email:		<input type="Email" name = "email"><br>
+	Password: 	<input type="Password", minlength="5", name = "password"> <br>
+	Birthday:	<input type="Date" name = "birthday"><br>
+	Gender:  M<input type="radio" name="gender" value = "M">	F<input type="radio" name = "gender"
+	value = "F">	<br>
+<! here we put name for the input, so that two buttons know that they respond to same thing, and cannot be selected both>
+	Pets:	<br>
+	Cat <input type="checkbox" name="pets" value="Cat"> <br>
+	Dog <input type="checkbox" name="pets" value="Dog"> <br>
+	Fish <input type="checkbox" name="pets" value="Fish"> <br>
+	Other <input type="checkbox" name="pets" value="Other Animal"> <br>
+<! checkbox allow to select multiple>
+	Car:	<br>
+	<select name= "car"> 
+		<!can also use <select multiple> to have multiple options>
+		<option value = "Volvo"> Volvo</option>
+		<option value = "Audi"> Audi</option>
+	</select>
+	<br>
+	<br>
+	<input type="submit" name="Join!">
+	<input type="reset" name="Reset All!">
+
+</form>
+<br>
+<a href="index.html">Home Page</a>
+</body>
+</html>
+<!The output is 
+file:///Users/macbookpro15/Desktop/Aiaru_WebDev/register.html
+?
+fname=Anapi
+&lname=M
+&email=aiaru.mukhamedyarova%40gmail.com
+&password=jkstae
+&birthday=1997-07-14
+&gender=F
+&pets=Dog
+&car=Volvo
+&Join%21=Submit
+>
